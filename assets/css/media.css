@@ -1,0 +1,491 @@
+@media only screen and (min-width: 1200px){
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .menu-area nav > ul > li a {
+        padding: 10px 14px;
+    }
+    .banner-slider-inner {
+        width: 95%;
+         left: 2.5%;
+    }
+    .slider-bookin-form {
+        padding: 15px 0px 15px 10px;
+    }
+    .slider-bookin-form span.get-tuch {
+        line-height: unset;
+    }
+    .slider-bookin-form .form-inner > div input {
+        width: 80%;
+    }
+
+    .slider-area .slick-initialized .slick-slide {
+        height: 400px;
+    }
+    div#ui-datepicker-div {
+        left: 700.031px!important;
+    }
+    .gif-button a {
+        margin-left: 57%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    .menu-area nav > ul > li a {
+        padding: 10px 14px;
+    }
+    .top-panel-email span i {
+        margin-right: 9px;
+    }
+    .responsive-menu,
+	.slicknav_menu{
+		display: block;
+    	z-index: 9999;
+    }
+    
+    .slicknav_nav li a:focus {
+        outline: none;
+    }
+	#main_menu{
+		display: none;
+    }
+    .slicknav_menu {
+        background: unset;
+    }
+    span.slicknav_menutxt {
+        display: none!important;
+    }
+    .slicknav_btn {
+        background-color: unset;
+    }
+    ul.slicknav_nav {
+        position: absolute;
+        top: 113%;
+        right: 0;
+        width: 250px;
+        background: #000;
+        z-index: 1111;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    ul.slicknav_nav li a.active {
+        color: #8A940A;
+    }
+    
+    ul.slicknav_nav li a {
+        display: block;
+        font-size: 18px;
+    }
+
+    .banner-slider-inner {
+        display: none;
+    }
+    .slider-area .slick-initialized .slick-slide {
+        height: 300px;
+    }
+    .slider-bookin-form .form-inner > div input {
+        padding: 5px 7px;
+    }
+    .banner-slider-inner h2 {
+        margin-bottom: 10px;
+    }
+    .slider-bookin-form {
+        padding: 5px 0px 5px 20px;
+        background: rgba(39, 32, 30, .9);
+    }
+    .wellcome-image {
+        margin-top: 15px;
+    }
+    .specialists-wapper {
+        margin-bottom: 15px;
+    }
+    .gif-card-wapper {
+        margin-bottom: 15px;
+    }
+    .blog-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-bootom {
+        text-align: unset;
+    }
+    
+    .office-info-wapper {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .top-panel-social ul {
+        text-align: center;
+        margin: 10px 0pc;
+    }
+    .header-logo {
+        width: 80%;
+    }
+    .responsive-menu,
+	.slicknav_menu{
+		display: block;
+    	z-index: 9999;
+	}
+	#main_menu{
+		display: none;
+    }
+    .slicknav_nav li a:focus {
+        outline: none;
+    }
+    .slicknav_menu {
+        background: unset;
+    }
+    span.slicknav_menutxt {
+        display: none!important;
+    }
+    .slicknav_btn {
+        background-color: unset;
+    }
+    ul.slicknav_nav {
+        position: absolute;
+        top: 113%;
+        right: 0;
+        width: 250px;
+        background: #000;
+        z-index: 1111;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    ul.slicknav_nav li a.active {
+        color: #8A940A;
+    }
+    
+    ul.slicknav_nav li a {
+        display: block;
+        font-size: 18px;
+    }
+
+    .banner-slider-inner {
+        display: none;
+    }
+    .slider-area .slick-initialized .slick-slide {
+        height: 300px;
+    }
+    .slider-image img {
+        height: 300px;
+    }
+    .slider-bookin-form .form-inner > div input {
+        padding: 5px 7px;
+    }
+    .banner-slider-inner h2 {
+        margin-bottom: 10px;
+    }
+    .slider-bookin-form {
+        padding: 5px 0px 5px 20px;
+        background: rgba(39, 32, 30, .9);
+    }
+    .wellcome-image {
+        margin-top: 15px;
+    }
+    .specialists-wapper {
+        margin-bottom: 15px;
+    }
+    .gif-card-wapper {
+        margin-bottom: 15px;
+    }
+    .blog-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-bootom {
+        text-align: center;
+    }
+    .office-info-wapper {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 480px) and (max-width: 575.98px){ 
+    .top-panel-email {
+        text-align: center;
+    }
+    .top-panel-social ul {
+        text-align: center;
+        margin: 10px 0pc;
+    }
+    .header-logo {
+        width: 80%;
+    }
+    .responsive-menu,
+	.slicknav_menu{
+		display: block;
+    	z-index: 9999;
+	}
+	#main_menu{
+		display: none;
+    }
+    .slicknav_nav li a:focus {
+        outline: none;
+    }
+    .slicknav_menu {
+        background: unset;
+    }
+    span.slicknav_menutxt {
+        display: none!important;
+    }
+    .slicknav_btn {
+        background-color: unset;
+    }
+    ul.slicknav_nav {
+        position: absolute;
+        top: 113%;
+        right: 0;
+        width: 250px;
+        background: #000;
+        z-index: 1111;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    ul.slicknav_nav li a.active {
+        color: #8A940A;
+    }
+    
+    ul.slicknav_nav li a {
+        display: block;
+        font-size: 18px;
+    }
+
+    .banner-slider-inner {
+        display: none;
+    }
+    .slider-area .slick-initialized .slick-slide {
+        height: 300px;
+    }
+    .slider-image img {
+        height: 300px;
+    }
+    .slider-bookin-form .form-inner > div input {
+        padding: 5px 7px;
+    }
+    .banner-slider-inner h2 {
+        margin-bottom: 10px;
+    }
+    .slider-bookin-form {
+        padding: 5px 0px 5px 20px;
+        background: rgba(39, 32, 30, .9);
+    }
+    .wellcome-image {
+        margin-top: 15px;
+    }
+    .specialists-wapper {
+        margin-bottom: 15px;
+    }
+    .gif-card-wapper {
+        margin-bottom: 15px;
+    }
+    .blog-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-bootom {
+        text-align: center;
+    }
+    .office-info-wapper {
+        margin-bottom: 20px;
+    }
+    
+}
+@media (min-width: 420px) and (max-width: 479px){
+    .top-panel-social ul {
+        text-align: center;
+        margin: 10px 0pc;
+    }
+    .top-panel-email {
+        text-align: center;
+    }
+    .header-logo {
+        width: 80%;
+    }
+    .responsive-menu,
+	.slicknav_menu{
+		display: block;
+    	z-index: 9999;
+	}
+	#main_menu{
+		display: none;
+    }
+    .slicknav_nav li a:focus {
+        outline: none;
+    }
+    .slicknav_menu {
+        background: unset;
+    }
+    span.slicknav_menutxt {
+        display: none!important;
+    }
+    .slicknav_btn {
+        background-color: unset;
+    }
+    ul.slicknav_nav {
+        position: absolute;
+        top: 113%;
+        right: 0;
+        width: 250px;
+        background: #000;
+        z-index: 1111;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    ul.slicknav_nav li a.active {
+        color: #8A940A;
+    }
+    
+    ul.slicknav_nav li a {
+        display: block;
+        font-size: 18px;
+    }
+
+    .banner-slider-inner {
+        display: none;
+    }
+    .slider-area .slick-initialized .slick-slide {
+        height: 300px;
+    }
+    .slider-image img {
+        height: 300px;
+    }
+    .slider-bookin-form .form-inner > div input {
+        padding: 5px 7px;
+    }
+    .banner-slider-inner h2 {
+        margin-bottom: 10px;
+    }
+    .slider-bookin-form {
+        padding: 5px 0px 5px 20px;
+        background: rgba(39, 32, 30, .9);
+    }
+    .wellcome-image {
+        margin-top: 15px;
+    }
+    .specialists-wapper {
+        margin-bottom: 15px;
+    }
+    .gif-card-wapper {
+        margin-bottom: 15px;
+    }
+    .blog-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-bootom {
+        text-align: center;
+    }
+    .office-info-wapper {
+        margin-bottom: 20px;
+    }
+    
+	
+}
+@media (min-width: 320px) and (max-width: 419px){
+    .top-panel-social ul {
+        text-align: center;
+        margin: 10px 0pc;
+    }
+    .top-panel-email {
+        text-align: center;
+    }
+    .header-logo {
+        width: 100%;
+    }
+    .responsive-menu,
+	.slicknav_menu{
+		display: block;
+    	z-index: 9999;
+	}
+	#main_menu{
+		display: none;
+    }
+    .slicknav_nav li a:focus {
+        outline: none;
+    }
+    .slicknav_menu {
+        background: unset;
+    }
+    span.slicknav_menutxt {
+        display: none!important;
+    }
+    .slicknav_btn {
+        background-color: unset;
+    }
+    ul.slicknav_nav {
+        position: absolute;
+        top: 113%;
+        right: 0;
+        width: 250px;
+        background: #000;
+        z-index: 1111;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    ul.slicknav_nav li a.active {
+        color: #8A940A;
+    }
+    
+    ul.slicknav_nav li a {
+        display: block;
+        font-size: 18px;
+    }
+
+    .banner-slider-inner {
+        display: none;
+    }
+    .slider-area .slick-initialized .slick-slide {
+        height: 300px;
+    }
+    .slider-image img {
+        height: 300px;
+    }
+    .slider-bookin-form .form-inner > div input {
+        padding: 5px 7px;
+    }
+    .banner-slider-inner h2 {
+        margin-bottom: 10px;
+    }
+    .slider-bookin-form {
+        padding: 5px 0px 5px 20px;
+        background: rgba(39, 32, 30, .9);
+    }
+    .wellcome-image {
+        margin-top: 15px;
+    }
+    .specialists-wapper {
+        margin-bottom: 15px;
+    }
+    .gif-card-wapper {
+        margin-bottom: 15px;
+    }
+    .blog-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-wapper {
+        margin-bottom: 15px;
+    }
+    .footer-bootom {
+        text-align: center;
+    }
+    .office-info-wapper {
+        margin-bottom: 20px;
+    }
+	
+}
+

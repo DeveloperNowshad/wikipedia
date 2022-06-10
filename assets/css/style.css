@@ -1,0 +1,625 @@
+
+/* ==============================
+Default Theme css
+=================================
+ */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0px;
+}
+img{
+    width: 100%;
+}
+/* ==============================
+Header css
+=================================
+ */
+.header-top-area{
+    padding: 10px 0px;
+    background: #DDDAEC;
+}
+.logo-wapper img {
+    width: 52%;
+    margin-top: 10px;
+}
+.header-top-area .header-banner-wapper img {
+    border-radius: 5px;
+}
+.header-top-area .social-icon {
+    margin-top: 24px;
+}
+.header-top-area .social-icon ul li {
+    margin-right: 6px;
+}
+.header-top-area .social-icon ul li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #514575;
+}
+.header-top-area .social-icon ul li a i {
+    color: #fff;
+}
+.menu-area {
+    background: #514575;
+}
+.menu-wapper ul > li {
+    display: inline-block;
+    position: relative;
+}
+.menu-wapper ul > li > a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.menu-wapper ul > li > a i {
+    color: #fff;
+    margin-left: 10px;
+}
+.menu-wapper ul > li > a:hover{
+    background: #4b406d;
+    color: #fff;
+}
+.menu-wapper ul > li > ul.wiki-submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+    background: #fff;
+    -webkit-box-shadow: 0px 3px 5px #ccc;
+    box-shadow: 0px 3px 5px #ccc;
+    padding: 10px 0px;
+    visibility: hidden;
+    opacity: 0;
+}
+.menu-wapper ul > li > ul.wiki-submenu > li {
+    display: block;
+}
+.menu-wapper ul > li > ul.wiki-submenu > li > a {
+    color: #000;
+    display: block;
+    padding: 3px 10px;
+}
+.menu-wapper ul > li > ul.wiki-submenu > li > a:hover {
+    background: #4b406d;
+    color: #fff;
+}
+.menu-wapper ul > li:hover  ul.wiki-submenu {
+    visibility: visible;
+    opacity: 1;
+}
+.header-sub-menu {
+    background: #E1E1E1;
+}
+.header-sub-menu-left ul li {
+    display: inline-block;
+}
+.header-sub-menu-left ul li a {
+    color: #333333;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.wiki-header-wapper {
+    margin-top: 5px;
+    text-align: right;
+}
+.wiki-header-wapper input {
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+.wiki-header-wapper button {
+    border: none;
+    padding: 5px 10px;
+    background: #fff;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.wiki-header-wapper button:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+.wiki-category-inner title h3 {
+    font-size: 20px;
+}
+
+.wiki-category-inner .title h3 {
+    font-size: 16px;
+    padding: 10px 10px;
+    background: #514575;
+    color: #fff;
+    margin-top: 9px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.content-image img {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 10px;
+}
+.content-image-right img {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+
+
+.wiki-category-wrap-image {
+    float: left;
+    width: 10%;
+    margin-right: 8px;
+}
+
+.wiki-category-wrap-content {
+    float: right;
+    width: 84%;
+}
+
+.wiki-category-wrap-content h4 a {
+    padding: 0px 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.wiki-category-wrap {
+    padding: 10px 0px;
+    margin-bottom: 43px;
+}
+
+/* ==============================
+Main Body css
+=================================
+ */
+.main-body-wapper{
+    padding: 30px 0px;
+}
+.content-wapper {
+    padding-top: 10px;
+}
+.wiki-category-inner a {
+    border-radius: 5px;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+.wiki-category-inner a i {
+    font-size: 50px;
+    display: block;
+    margin-bottom: 10px;
+}
+.single-content-inner table tr.odd {
+    background: rgba(81,69,117,.2);
+}
+.single-content-inner tr.tableheader {
+    background: rgba(81,69,117,.8);
+    color: #fff;
+}
+
+.single-content img.chart-png {
+    width: 80%;
+    margin: 10px 0px 22px;
+}
+
+.single-content-inner tr td a {
+    color: #000;
+}
+
+.single-content-inner tr td {
+    font-size: 14px;
+}
+.single-content.references tr td a {
+    color: #000;
+    font-size: 14px;
+    padding: 5px 0px;
+    display: block;
+}
+
+.single-content.references tr td a img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+.single-content.references tr.odd {
+    background: rgba(81,69,117,.2);
+}
+.content-wrap p {
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.country-inner ul li {
+    display: flex!important;
+    padding: 10px 0px;
+    margin-right: 0px!important;
+}
+
+.country-inner ul li:before {
+    display: none;
+}
+
+.country-inner ul li img {
+    width: 20%;
+    margin-right: 10px;
+}
+/* ==============================
+Main Body Sidebar css
+=================================
+ */
+.sidebar-wapper {
+    margin-top: 20px;
+    padding: 0;
+    border: thin solid #bcc3ca;
+    border-radius: 2px;
+    background: white;
+    position: relative;
+}
+.sidebar-title {
+    padding: 10px 20px 10px;
+    color: #fff;
+    background-color: #514575;
+}
+.sidebar-title h3 {
+    font-size: 16px;
+    font-family: 'Bitter', serif;
+}
+.sidebar-wapper ul.category-list li a {
+    padding: 2px 19px 2px 20px;
+    display: block;
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.sidebar-wapper ul.category-list li a i {
+    margin-right: 10px;
+    color: #514575;
+}
+.sidebar-wapper ul.category-list li a span {
+    float: right;
+}
+.sidebar-wapper ul.category-list li a:hover {
+    background: #E1E1E1;
+}
+/* ==============================
+Footer css
+=================================
+ */
+.footer-area {
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+    position: relative;
+}
+.footer-area:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(81,69,117,.8);
+    z-index: -1;
+    opacity: .9;
+}
+.footer-title h3 {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'Bitter', serif;
+    position: relative;
+}
+.footer-title h3:before {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: -3px;
+    width: 33%;
+    height: 1px;
+    background: #fff;
+}
+.footer-list ul li a {
+    padding: 3px 0px;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+}
+.footer-bottom {
+    background: #514575;
+    padding: 10px 0px;
+}
+.footer-bottom-wrap ul li {
+    display: inline-block;
+    padding-right: 25px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.footer-bottom-wrap ul li:last-child {
+    padding-right: 0px;
+}
+.footer-bottom-wrap ul li a {
+    color: #FFCB08;
+    position: relative;
+    font-size: 14px;
+}
+.footer-bottom-wrap ul li:before {
+    position: absolute;
+    content: "";
+    top: 6px;
+    right: 9px;
+    width: 1px;
+    height: 45%;
+    background: #FFCB08;
+}
+.footer-bottom-wrap ul li:last-child:before {
+    display: none;
+}
+.footer-bottom-wrap ul li a:before {
+    position: absolute;
+    content: "";
+    bottom: -7px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: transparent;
+}
+.footer-bottom-wrap ul li a:hover:before {
+    background: #FFCB08;
+}
+.footer-bottom-wrap p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.made-by p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.made-by p a {
+    color: #FFCB08;
+}
+.social-icon ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icon ul li a {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background: #DDDAEC;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.social-icon ul li a i {
+    font-size: 14px;
+    color: #000;
+}
+/* ==============================
+Category css
+=================================
+ */
+.cateogry-content .title h2 {
+    font-size: 24px;
+    font-family: 'Bitter', serif;
+    margin-top: 10px;
+}
+.category-donate {
+    position: relative;
+    background: #514575;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.category-donate p {
+    width: 80%;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.category-donate a {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    width: 19%;
+
+}
+.category-search {
+    margin-top: 20px;
+    background: rgba(81,69,117,.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+.category-search label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.category-search button{
+    margin-top: 31px;
+    padding: 7px 20px;
+    margin-right: 20px;
+    background: #514575;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.category-search button:last-child {
+    margin-right: 0px;
+}
+.catagory-alpha-head-title h2 {
+    font-size: 17px;
+    padding: 12px 0px;
+    position: relative;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.catagory-alpha-head-title h2:before {
+    position: absolute;
+    content: "";
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #514575;
+}
+.catagory-alpha-title ul li a {
+    font-size: 13px;
+    color: #000;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.catagory-alpha-title ul li a:hover {
+    color: #514575;
+}
+/* ==============================
+Single css
+=================================
+ */
+.single-title h2 {
+    font-size: 23px;
+    margin: 20px 0px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.single-tab-wapper .tab-pane {
+    padding-left: 20px;
+}
+.single-tab-wapper .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    background: rgba(81,69,117,.8);
+    color: #fff;
+    font-size: 13px;
+    margin-right: 3px;
+    padding: 3px 17px;
+}
+.single-tab-wapper .nav-tabs {
+    border-bottom: 1px solid rgba(81,69,117,.6);
+}
+.single-tab-wapper .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background: #514575;
+    color: #fff;
+    border-bottom: 1px solid #514575;
+}
+.single-tab-wapper .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+    background: #514575;
+    border-bottom: 1px solid #514575;
+}
+.single-content-wapper i {
+    font-size: 14px;
+}
+.single-content-wapper i {
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.single-image ul {
+    padding: 10px 0px;
+}
+.single-image ul li {
+    display: inline-block;
+}
+.single-image ul li a img {
+    border-radius: 5px;
+}
+.single-title h3 {
+    color: #514575;
+    margin: 12px 0 6px;
+    font-size: 20px;
+    font-family: Arial,'Arial Unicode MS',Helvetica,Sans-Serif;
+}
+
+.single-content p {
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    padding-top: 10px;
+}
+.single-content p a {
+    color: #000;
+    border-bottom: 1px dotted #514575;
+}
+.single-content ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+}
+.single-content ul {
+    padding-left: 20px;
+}
+.single-content ul li:before {
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: -15px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #569608;
+}
+.single-content ul li a {
+    color: #000;
+    font-size: 14px;
+    font-family: Arial,'Arial Unicode MS',Helvetica,Sans-Serif;
+}
+.single-social-link {
+    margin-top: 20px;
+}
+.single-social-link ul li {
+    display: inline-block;
+}
+
+.single-social-link ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    background: #514575;
+    text-align: center;
+    border-radius: 5px;
+}
+.single-social-link ul li a i {
+    color: #fff;
+}
